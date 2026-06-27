@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello World");
-
+        
         String dataFile = "notes.json";
         NoteManager manager = new NoteManager();
         manager.loadNotesFromFile(dataFile);
@@ -71,3 +71,4 @@ public class Main {
         }
     }
 }
+ 
