@@ -1,4 +1,3 @@
-
 package com.example;
 
 import java.time.LocalDateTime;
@@ -12,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello World");
-        System.out.println("Sum of 1, 2, 3 is: " + sumOfThree(1, 2, 3));
+       
         String dataFile = "notes.json";
         NoteManager manager = new NoteManager();
         manager.loadNotesFromFile(dataFile);
@@ -72,4 +71,3 @@ public class Main {
         }
     }
 }
- 
