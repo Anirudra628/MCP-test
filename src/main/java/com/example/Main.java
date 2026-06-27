@@ -68,8 +68,6 @@ public class Main {
             System.out.println("Removed note(s) with title: " + title);
         } else {
             System.out.println("No note found with that title.");
-            
         }
-        
     }
 }
